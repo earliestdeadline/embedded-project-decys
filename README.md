@@ -472,4 +472,169 @@ Even while still `base64-encoded`, the key text sits visibly above ordinary code
 
 ### Target 6: Crack the OTP generator
 
+**Relevant Artifacts:**
+
+All artifacts for this target are located under [./TARGETS/target-6/](./TARGETS/target-6/)
+
+- Raw serial capture of the brute-force run showing the repeat: [otp_last_captureV4.txt]
+- Python script used to drive the serial interface, detect the repeat, recover the LCG parameters and confirm the next OTP: [otp_cracker.py](./TARGETS/target-6/OTP_FinalAttemptV4.py)
+
+#### Explanation
+
+After logging in as `Admin Alan` and submitting the C6C password recovered in Target 5, the device drops into an `OTP:` prompt and rejects any guess with `Incorrect OTP, got [GUESS], was expecting [VALUE]`. Since the real value is leaked on every failed attempt, we didn't need to actually guess the OTP, we could submit, repeatedly, a dummy value (in this case, `100`), and log every leaked value in order.
+
+#### Detecting the repeat
+
+Firstly, it was tested with a loop that would stop at the first repeat single leaked value. However, this is unreliable as, with values spread across a ~4096 wide range, the likelihood two unrelated draws coincidentally collide, before the generator's actual cycle completes, is high.
+As such, to avoid false positives, the script only confirms a repeat, once `CONFIRM_LEN = 5` **consecutive** values match a previous stretch of the sequence exactly, as a coincidence of that size is extremely unlikely, meaning the generator *has* looped back to a prior state.
+
+```python
+found = False
+for j in range(max(0, attempt - 1500), attempt):
+    cand_period = attempt - j
+    ok = True
+    for k in range(CONFIRM_LEN):
+        a_ = get_val(attempt - k)
+        b_ = get_val(attempt - k - cand_period)
+        if a_ is None or b_ is None or a_ != b_:
+            ok = False
+            break
+    if ok:
+        period = cand_period
+        j_match = j
+        found = True
+        break
+```
+
+On this boot, this detected a confirmed period of **512** attempts, with the value of **3122** repeating (first seen at index 0, confirmed repeating again at index 512). This is logged directly in `otp_last_captureV4.txt`.
+
+**NOTE:** While developing the code to bruteforce the OTP, after multiple attempts, it was noted that the **period when it cycles**, alternates between `512` and `1024`. After some research, and after obtaining the generator parameters, we found out it was due to it not satisfying the Hull-Dobell theorem for a power of two modulus where, in this specific case, **c is even and not coprime with m**. This leads to several sub-cycles of different lengths rather than one single cycle covering every state. The sub-cycle a boot gives and how many attempts until it repeats depend entirely on the boot's seed.
+
+#### Recovering the generator parameters
+
+Treating the leaked values as an LCG sequence: `x_(n+1) = (a * x_n + c) mod m`, we recovered the parameters algebraically rather than by brute force, using the identity that for any three consecutive outputs, `d_(n+1) * d_(n-1) - (d_n)^2 = 0 (mod m)`, where `d_n = x_(n+1) - x_n`. Taking the CGD of this expression across many sampled triples converges on `m`.
+
+Observationally, every captured OTP value **stayed under 4096**, with the maximum observed value landing **exactly at 4095** (`2^12 - 1`). This is a strong fingerprint of a `mod 4096` generator. We used `m = 4096`directly and then solved for `a` via the congruence `a * d0 = d1 (mod m)` using the extended GCD approach, disambiguating between candidate solutions by checking which one correctly predicts additional diffs further into the sequence.
+
+```python
+m = 4096
+
+def solve_a(d0, d1, m):
+    g = math.gcd(d0, m)
+    if d1 % g != 0:
+        return []
+    d0g, d1g, mg = d0 // g, d1 // g, m // g
+    a0 = (d1g * pow(d0g, -1, mg)) % mg
+    return [(a0 + k*mg) % m for k in range(g)]
+
+candidates = solve_a(diffs[0], diffs[1], m)
+a = next(cand for cand in candidates
+    if all((cand * diffs[i]) % m == diffs[i+1] % m for i in range(min(20, len(diffs)-1))))
+c = (X[1] - a*X[0]) % m
+```
+
+This recovered:
+
+- a = 109;
+- c = 3072
+- m = 4096
+- x_(n+1) = (109 * x_n + 3072) mod 4096
+
+We validated this against the **entire** captured sequence and found **zero mismatches** across all 500+ consecutive outputs, confirming the parameters are correct rather than a coincidental fit.
+
+#### Reproducing the next ORP
+
+Using the recovered recurrence, the next expected OTP after the confirmed repeat point is computed directly as `next_otp(x_n) = (109 * x_n + 3072) mod 4096`. we submitted this predicted value to the device and it was accepted, confirming the recovery is correct end-to-end.
+
+**Answer this (from *your* board).** On this boot, how many attempts until the generator repeated, what value repeated, and what is the next OTP the generator will produce?
+
+**Questions:**
+
+  **1. How many attempts until the generator repeated?**
+
+  **Answer:** In the successful case, 512. However it was noted that, depending on the boot seed, it can go up to 1024.
+
+  **2. What value repeated?**
+
+  **Answer:** The repeated values were always the first value in their respective sequence. So, in this case, the first value was **3122**, which repeated again at **attempt 512**.
+
+  **3. What is the next OTP the generator will produce?**
+
+  **Answer:** Using the recovered parameters (`a=109, c=3072, m=4096`), the next OTP the generator produces is **2026**.
+
 ### Target 7: Final secret
+
+**Relevant Artifacts:**
+
+All artifacts for this target are located under [./TARGETS/target-7/](./TARGETS/target-7/).
+
+- Full serial transcript of the successful connection: [otp_crack.txt](./TARGETS/target-7/otp_crack.txt)
+- Script used to connect: [otp_cracker.py](./TARGETS/target-7/OTP_Cracker.py)
+
+With both prior targets solved, connecting to the C&C no longer requires any brute-forcing. As such, the target 6 script is rewritten here, to use the recovered LCG parameters directly, than hunting for a repeat each time:
+
+```python
+CNC_PASSWORD = "cncshneqqfaesmkhngtuakyiynloylukfsesdcpfsiuctxnxmykil" # C&C password recovered from Target 5
+
+read_until("vending machine")
+send_raw("alancywupdjmydfadoaqvshshkgucnfwvvoqhjbxrdgndhfmhryjzn\n") # Admin Alan's password
+read_until("Password:")
+send_raw(CNC_PASSWORD + "\n")
+read_until("OTP:")
+
+pattern = re.compile(r"was expecting (\d+)")
+
+A, C, M = 109, 3072, 4096 # Parameters recovered from Target 6
+
+def next_otp(x):
+    return (A * x + C) % M # To determine the next value in the OTP seed [ x_(n+1) = (A * x_n + C) mod M ]
+
+with open("otp_crack.txt", "w") as f:
+    f.write("=== Final C&C connection transcript ===\n")
+
+    send_raw("100\n") # Sending dummy value once to be able to determine next value (leaks x0)
+    lines = read_until("OTP:")
+
+    x0 = None
+    for line in lines:
+        f.write(line + "\n")
+        f.flush()
+        m = pattern.search(line)
+        if m:
+            x0 = int(m.group(1))
+
+    if x0 is None:
+        print("Couldn't leak the seed value.")
+    else:
+        f.write(f"> Leaked seed value (x0) this boot: {x0}\n")
+        predicted = next_otp(x0)
+        f.write(f"> Predicted next OTP via LCG (a={A}, c={C}, m={M}): {predicted}\n")
+        print(f"> Submitting predicted OTP: {predicted}")
+
+        send_raw(f"{predicted}\n")
+        final_response = read_until("Signed-By", timeout=5)
+        f.write("------ Final response ------\n")
+        for line in final_response:
+            f.write(line + "\n")
+```
+
+The full exchange, captured in `otp_crack.txt`:
+
+```txt
+------ OTP crack transcript ------
+Incorrect OTP, got 100, was expecting 770
+OTP:
+> Leaked seed value (x0) this boot: 770
+> Predicted next OTP via LCG (a=109, c=3072, m=4096): 986
+------ Final response ------
+CONGRATULATIONS! You have successfully connected to the C&C
+Here is the final secret: iceroadjellykitchen
+TODO: Replace this with actual connection to C&C
+Signed-By: Dan
+```
+
+**Questions:**
+
+  **1. How did targets 5 and 6 combine to let you connect?**
+
+  **Answer:** Target 5 recovered the **static C&C password**, which is required to get past the `Password:` prompt and reach the `OTP:` stage at all. Target 6 solved the **dynamic second factor**, by brute-forcing one boot's full OTP cycle, allowing us to recover the LCG's internal parameters (`a=109, c=3072, m=4096`). These parameters let us compute, from a single leaked value, exactly what OTP the device expects next, without needing to brute-force each boot individually. Only by combining both, can we actually access the final secret: `iceroadjellykitchen`

@@ -1,0 +1,10 @@
+------ OTP crack transcript ------
+Incorrect OTP, got 100, was expecting 770
+OTP:
+> Leaked seed value (x0) this boot: 770
+> Predicted next OTP via LCG (a=109, c=3072, m=4096): 986
+------ Final response ------
+CONGRATULATIONS! You have successfully connected to the C&C
+Here is the final secret: iceroadjellykitchen
+TODO: Replace this with actual connection to C&C
+Signed-By: Dan

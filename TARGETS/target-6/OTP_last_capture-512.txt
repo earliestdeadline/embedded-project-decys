@@ -1,0 +1,1045 @@
+------ OTP brute-force transcript ------
+0: Incorrect OTP, got 100, was expecting 3122
+0: OTP:
+1: Incorrect OTP, got 100, was expecting 3402
+1: OTP:
+2: Incorrect OTP, got 100, was expecting 1154
+2: OTP:
+3: Incorrect OTP, got 100, was expecting 1882
+3: OTP:
+4: Incorrect OTP, got 100, was expecting 3410
+4: OTP:
+5: Incorrect OTP, got 100, was expecting 2026
+5: OTP:
+6: Incorrect OTP, got 100, was expecting 2722
+6: OTP:
+7: Incorrect OTP, got 100, was expecting 762
+7: OTP:
+8: Incorrect OTP, got 100, was expecting 114
+8: OTP:
+9: Incorrect OTP, got 100, was expecting 3210
+9: OTP:
+10: Incorrect OTP, got 100, was expecting 706
+10: OTP:
+11: Incorrect OTP, got 100, was expecting 2202
+11: OTP:
+12: Incorrect OTP, got 100, was expecting 1426
+12: OTP:
+13: Incorrect OTP, got 100, was expecting 2858
+13: OTP:
+14: Incorrect OTP, got 100, was expecting 3298
+14: OTP:
+15: Incorrect OTP, got 100, was expecting 2106
+15: OTP:
+16: Incorrect OTP, got 100, was expecting 3250
+16: OTP:
+17: Incorrect OTP, got 100, was expecting 970
+17: OTP:
+18: Incorrect OTP, got 100, was expecting 2306
+18: OTP:
+19: Incorrect OTP, got 100, was expecting 474
+19: OTP:
+20: Incorrect OTP, got 100, was expecting 1490
+20: OTP:
+21: Incorrect OTP, got 100, was expecting 1642
+21: OTP:
+22: Incorrect OTP, got 100, was expecting 1826
+22: OTP:
+23: Incorrect OTP, got 100, was expecting 1402
+23: OTP:
+24: Incorrect OTP, got 100, was expecting 242
+24: OTP:
+25: Incorrect OTP, got 100, was expecting 778
+25: OTP:
+26: Incorrect OTP, got 100, was expecting 1858
+26: OTP:
+27: Incorrect OTP, got 100, was expecting 794
+27: OTP:
+28: Incorrect OTP, got 100, was expecting 3602
+28: OTP:
+29: Incorrect OTP, got 100, was expecting 2474
+29: OTP:
+30: Incorrect OTP, got 100, was expecting 2402
+30: OTP:
+31: Incorrect OTP, got 100, was expecting 2746
+31: OTP:
+32: Incorrect OTP, got 100, was expecting 3378
+32: OTP:
+33: Incorrect OTP, got 100, was expecting 2634
+33: OTP:
+34: Incorrect OTP, got 100, was expecting 3458
+34: OTP:
+35: Incorrect OTP, got 100, was expecting 3162
+35: OTP:
+36: Incorrect OTP, got 100, was expecting 3666
+36: OTP:
+37: Incorrect OTP, got 100, was expecting 1258
+37: OTP:
+38: Incorrect OTP, got 100, was expecting 930
+38: OTP:
+39: Incorrect OTP, got 100, was expecting 2042
+39: OTP:
+40: Incorrect OTP, got 100, was expecting 370
+40: OTP:
+41: Incorrect OTP, got 100, was expecting 2442
+41: OTP:
+42: Incorrect OTP, got 100, was expecting 3010
+42: OTP:
+43: Incorrect OTP, got 100, was expecting 3482
+43: OTP:
+44: Incorrect OTP, got 100, was expecting 1682
+44: OTP:
+45: Incorrect OTP, got 100, was expecting 2090
+45: OTP:
+46: Incorrect OTP, got 100, was expecting 1506
+46: OTP:
+47: Incorrect OTP, got 100, was expecting 3386
+47: OTP:
+48: Incorrect OTP, got 100, was expecting 3506
+48: OTP:
+49: Incorrect OTP, got 100, was expecting 202
+49: OTP:
+50: Incorrect OTP, got 100, was expecting 514
+50: OTP:
+51: Incorrect OTP, got 100, was expecting 1754
+51: OTP:
+52: Incorrect OTP, got 100, was expecting 1746
+52: OTP:
+53: Incorrect OTP, got 100, was expecting 874
+53: OTP:
+54: Incorrect OTP, got 100, was expecting 34
+54: OTP:
+55: Incorrect OTP, got 100, was expecting 2682
+55: OTP:
+56: Incorrect OTP, got 100, was expecting 498
+56: OTP:
+57: Incorrect OTP, got 100, was expecting 10
+57: OTP:
+58: Incorrect OTP, got 100, was expecting 66
+58: OTP:
+59: Incorrect OTP, got 100, was expecting 2074
+59: OTP:
+60: Incorrect OTP, got 100, was expecting 3858
+60: OTP:
+61: Incorrect OTP, got 100, was expecting 1706
+61: OTP:
+62: Incorrect OTP, got 100, was expecting 610
+62: OTP:
+63: Incorrect OTP, got 100, was expecting 4026
+63: OTP:
+64: Incorrect OTP, got 100, was expecting 3634
+64: OTP:
+65: Incorrect OTP, got 100, was expecting 1866
+65: OTP:
+66: Incorrect OTP, got 100, was expecting 1666
+66: OTP:
+67: Incorrect OTP, got 100, was expecting 346
+67: OTP:
+68: Incorrect OTP, got 100, was expecting 3922
+68: OTP:
+69: Incorrect OTP, got 100, was expecting 490
+69: OTP:
+70: Incorrect OTP, got 100, was expecting 3234
+70: OTP:
+71: Incorrect OTP, got 100, was expecting 3322
+71: OTP:
+72: Incorrect OTP, got 100, was expecting 626
+72: OTP:
+73: Incorrect OTP, got 100, was expecting 1674
+73: OTP:
+74: Incorrect OTP, got 100, was expecting 1218
+74: OTP:
+75: Incorrect OTP, got 100, was expecting 666
+75: OTP:
+76: Incorrect OTP, got 100, was expecting 1938
+76: OTP:
+77: Incorrect OTP, got 100, was expecting 1322
+77: OTP:
+78: Incorrect OTP, got 100, was expecting 3810
+78: OTP:
+79: Incorrect OTP, got 100, was expecting 570
+79: OTP:
+80: Incorrect OTP, got 100, was expecting 3762
+80: OTP:
+81: Incorrect OTP, got 100, was expecting 3530
+81: OTP:
+82: Incorrect OTP, got 100, was expecting 2818
+82: OTP:
+83: Incorrect OTP, got 100, was expecting 3034
+83: OTP:
+84: Incorrect OTP, got 100, was expecting 2002
+84: OTP:
+85: Incorrect OTP, got 100, was expecting 106
+85: OTP:
+86: Incorrect OTP, got 100, was expecting 2338
+86: OTP:
+87: Incorrect OTP, got 100, was expecting 3962
+87: OTP:
+88: Incorrect OTP, got 100, was expecting 754
+88: OTP:
+89: Incorrect OTP, got 100, was expecting 3338
+89: OTP:
+90: Incorrect OTP, got 100, was expecting 2370
+90: OTP:
+91: Incorrect OTP, got 100, was expecting 3354
+91: OTP:
+92: Incorrect OTP, got 100, was expecting 18
+92: OTP:
+93: Incorrect OTP, got 100, was expecting 938
+93: OTP:
+94: Incorrect OTP, got 100, was expecting 2914
+94: OTP:
+95: Incorrect OTP, got 100, was expecting 1210
+95: OTP:
+96: Incorrect OTP, got 100, was expecting 3890
+96: OTP:
+97: Incorrect OTP, got 100, was expecting 1098
+97: OTP:
+98: Incorrect OTP, got 100, was expecting 3970
+98: OTP:
+99: Incorrect OTP, got 100, was expecting 1626
+99: OTP:
+100: Incorrect OTP, got 100, was expecting 82
+100: OTP:
+101: Incorrect OTP, got 100, was expecting 3818
+101: OTP:
+102: Incorrect OTP, got 100, was expecting 1442
+102: OTP:
+103: Incorrect OTP, got 100, was expecting 506
+103: OTP:
+104: Incorrect OTP, got 100, was expecting 882
+104: OTP:
+105: Incorrect OTP, got 100, was expecting 906
+105: OTP:
+106: Incorrect OTP, got 100, was expecting 3522
+106: OTP:
+107: Incorrect OTP, got 100, was expecting 1946
+107: OTP:
+108: Incorrect OTP, got 100, was expecting 2194
+108: OTP:
+109: Incorrect OTP, got 100, was expecting 554
+109: OTP:
+110: Incorrect OTP, got 100, was expecting 2018
+110: OTP:
+111: Incorrect OTP, got 100, was expecting 1850
+111: OTP:
+112: Incorrect OTP, got 100, was expecting 4018
+112: OTP:
+113: Incorrect OTP, got 100, was expecting 2762
+113: OTP:
+114: Incorrect OTP, got 100, was expecting 1026
+114: OTP:
+115: Incorrect OTP, got 100, was expecting 218
+115: OTP:
+116: Incorrect OTP, got 100, was expecting 2258
+116: OTP:
+117: Incorrect OTP, got 100, was expecting 3434
+117: OTP:
+118: Incorrect OTP, got 100, was expecting 546
+118: OTP:
+119: Incorrect OTP, got 100, was expecting 1146
+119: OTP:
+120: Incorrect OTP, got 100, was expecting 1010
+120: OTP:
+121: Incorrect OTP, got 100, was expecting 2570
+121: OTP:
+122: Incorrect OTP, got 100, was expecting 578
+122: OTP:
+123: Incorrect OTP, got 100, was expecting 538
+123: OTP:
+124: Incorrect OTP, got 100, was expecting 274
+124: OTP:
+125: Incorrect OTP, got 100, was expecting 170
+125: OTP:
+126: Incorrect OTP, got 100, was expecting 1122
+126: OTP:
+127: Incorrect OTP, got 100, was expecting 2490
+127: OTP:
+128: Incorrect OTP, got 100, was expecting 50
+128: OTP:
+129: Incorrect OTP, got 100, was expecting 330
+129: OTP:
+130: Incorrect OTP, got 100, was expecting 2178
+130: OTP:
+131: Incorrect OTP, got 100, was expecting 2906
+131: OTP:
+132: Incorrect OTP, got 100, was expecting 338
+132: OTP:
+133: Incorrect OTP, got 100, was expecting 3050
+133: OTP:
+134: Incorrect OTP, got 100, was expecting 3746
+134: OTP:
+135: Incorrect OTP, got 100, was expecting 1786
+135: OTP:
+136: Incorrect OTP, got 100, was expecting 1138
+136: OTP:
+137: Incorrect OTP, got 100, was expecting 138
+137: OTP:
+138: Incorrect OTP, got 100, was expecting 1730
+138: OTP:
+139: Incorrect OTP, got 100, was expecting 3226
+139: OTP:
+140: Incorrect OTP, got 100, was expecting 2450
+140: OTP:
+141: Incorrect OTP, got 100, was expecting 3882
+141: OTP:
+142: Incorrect OTP, got 100, was expecting 226
+142: OTP:
+143: Incorrect OTP, got 100, was expecting 3130
+143: OTP:
+144: Incorrect OTP, got 100, was expecting 178
+144: OTP:
+145: Incorrect OTP, got 100, was expecting 1994
+145: OTP:
+146: Incorrect OTP, got 100, was expecting 3330
+146: OTP:
+147: Incorrect OTP, got 100, was expecting 1498
+147: OTP:
+148: Incorrect OTP, got 100, was expecting 2514
+148: OTP:
+149: Incorrect OTP, got 100, was expecting 2666
+149: OTP:
+150: Incorrect OTP, got 100, was expecting 2850
+150: OTP:
+151: Incorrect OTP, got 100, was expecting 2426
+151: OTP:
+152: Incorrect OTP, got 100, was expecting 1266
+152: OTP:
+153: Incorrect OTP, got 100, was expecting 1802
+153: OTP:
+154: Incorrect OTP, got 100, was expecting 2882
+154: OTP:
+155: Incorrect OTP, got 100, was expecting 1818
+155: OTP:
+156: Incorrect OTP, got 100, was expecting 530
+156: OTP:
+157: Incorrect OTP, got 100, was expecting 3498
+157: OTP:
+158: Incorrect OTP, got 100, was expecting 3426
+158: OTP:
+159: Incorrect OTP, got 100, was expecting 3770
+159: OTP:
+160: Incorrect OTP, got 100, was expecting 306
+160: OTP:
+161: Incorrect OTP, got 100, was expecting 3658
+161: OTP:
+162: Incorrect OTP, got 100, was expecting 386
+162: OTP:
+163: Incorrect OTP, got 100, was expecting 90
+163: OTP:
+164: Incorrect OTP, got 100, was expecting 594
+164: OTP:
+165: Incorrect OTP, got 100, was expecting 2282
+165: OTP:
+166: Incorrect OTP, got 100, was expecting 1954
+166: OTP:
+167: Incorrect OTP, got 100, was expecting 3066
+167: OTP:
+168: Incorrect OTP, got 100, was expecting 1394
+168: OTP:
+169: Incorrect OTP, got 100, was expecting 3466
+169: OTP:
+170: Incorrect OTP, got 100, was expecting 4034
+170: OTP:
+171: Incorrect OTP, got 100, was expecting 410
+171: OTP:
+172: Incorrect OTP, got 100, was expecting 2706
+172: OTP:
+173: Incorrect OTP, got 100, was expecting 3114
+173: OTP:
+174: Incorrect OTP, got 100, was expecting 2530
+174: OTP:
+175: Incorrect OTP, got 100, was expecting 314
+175: OTP:
+176: Incorrect OTP, got 100, was expecting 434
+176: OTP:
+177: Incorrect OTP, got 100, was expecting 1226
+177: OTP:
+178: Incorrect OTP, got 100, was expecting 1538
+178: OTP:
+179: Incorrect OTP, got 100, was expecting 2778
+179: OTP:
+180: Incorrect OTP, got 100, was expecting 2770
+180: OTP:
+181: Incorrect OTP, got 100, was expecting 1898
+181: OTP:
+182: Incorrect OTP, got 100, was expecting 1058
+182: OTP:
+183: Incorrect OTP, got 100, was expecting 3706
+183: OTP:
+184: Incorrect OTP, got 100, was expecting 1522
+184: OTP:
+185: Incorrect OTP, got 100, was expecting 1034
+185: OTP:
+186: Incorrect OTP, got 100, was expecting 1090
+186: OTP:
+187: Incorrect OTP, got 100, was expecting 3098
+187: OTP:
+188: Incorrect OTP, got 100, was expecting 786
+188: OTP:
+189: Incorrect OTP, got 100, was expecting 2730
+189: OTP:
+190: Incorrect OTP, got 100, was expecting 1634
+190: OTP:
+191: Incorrect OTP, got 100, was expecting 954
+191: OTP:
+192: Incorrect OTP, got 100, was expecting 562
+192: OTP:
+193: Incorrect OTP, got 100, was expecting 2890
+193: OTP:
+194: Incorrect OTP, got 100, was expecting 2690
+194: OTP:
+195: Incorrect OTP, got 100, was expecting 1370
+195: OTP:
+196: Incorrect OTP, got 100, was expecting 850
+196: OTP:
+197: Incorrect OTP, got 100, was expecting 1514
+197: OTP:
+198: Incorrect OTP, got 100, was expecting 162
+198: OTP:
+199: Incorrect OTP, got 100, was expecting 250
+199: OTP:
+200: Incorrect OTP, got 100, was expecting 1650
+200: OTP:
+201: Incorrect OTP, got 100, was expecting 2698
+201: OTP:
+202: Incorrect OTP, got 100, was expecting 2242
+202: OTP:
+203: Incorrect OTP, got 100, was expecting 1690
+203: OTP:
+204: Incorrect OTP, got 100, was expecting 2962
+204: OTP:
+205: Incorrect OTP, got 100, was expecting 2346
+205: OTP:
+206: Incorrect OTP, got 100, was expecting 738
+206: OTP:
+207: Incorrect OTP, got 100, was expecting 1594
+207: OTP:
+208: Incorrect OTP, got 100, was expecting 690
+208: OTP:
+209: Incorrect OTP, got 100, was expecting 458
+209: OTP:
+210: Incorrect OTP, got 100, was expecting 3842
+210: OTP:
+211: Incorrect OTP, got 100, was expecting 4058
+211: OTP:
+212: Incorrect OTP, got 100, was expecting 3026
+212: OTP:
+213: Incorrect OTP, got 100, was expecting 1130
+213: OTP:
+214: Incorrect OTP, got 100, was expecting 3362
+214: OTP:
+215: Incorrect OTP, got 100, was expecting 890
+215: OTP:
+216: Incorrect OTP, got 100, was expecting 1778
+216: OTP:
+217: Incorrect OTP, got 100, was expecting 266
+217: OTP:
+218: Incorrect OTP, got 100, was expecting 3394
+218: OTP:
+219: Incorrect OTP, got 100, was expecting 282
+219: OTP:
+220: Incorrect OTP, got 100, was expecting 1042
+220: OTP:
+221: Incorrect OTP, got 100, was expecting 1962
+221: OTP:
+222: Incorrect OTP, got 100, was expecting 3938
+222: OTP:
+223: Incorrect OTP, got 100, was expecting 2234
+223: OTP:
+224: Incorrect OTP, got 100, was expecting 818
+224: OTP:
+225: Incorrect OTP, got 100, was expecting 2122
+225: OTP:
+226: Incorrect OTP, got 100, was expecting 898
+226: OTP:
+227: Incorrect OTP, got 100, was expecting 2650
+227: OTP:
+228: Incorrect OTP, got 100, was expecting 1106
+228: OTP:
+229: Incorrect OTP, got 100, was expecting 746
+229: OTP:
+230: Incorrect OTP, got 100, was expecting 2466
+230: OTP:
+231: Incorrect OTP, got 100, was expecting 1530
+231: OTP:
+232: Incorrect OTP, got 100, was expecting 1906
+232: OTP:
+233: Incorrect OTP, got 100, was expecting 1930
+233: OTP:
+234: Incorrect OTP, got 100, was expecting 450
+234: OTP:
+235: Incorrect OTP, got 100, was expecting 2970
+235: OTP:
+236: Incorrect OTP, got 100, was expecting 3218
+236: OTP:
+237: Incorrect OTP, got 100, was expecting 1578
+237: OTP:
+238: Incorrect OTP, got 100, was expecting 3042
+238: OTP:
+239: Incorrect OTP, got 100, was expecting 2874
+239: OTP:
+240: Incorrect OTP, got 100, was expecting 946
+240: OTP:
+241: Incorrect OTP, got 100, was expecting 3786
+241: OTP:
+242: Incorrect OTP, got 100, was expecting 2050
+242: OTP:
+243: Incorrect OTP, got 100, was expecting 1242
+243: OTP:
+244: Incorrect OTP, got 100, was expecting 3282
+244: OTP:
+245: Incorrect OTP, got 100, was expecting 362
+245: OTP:
+246: Incorrect OTP, got 100, was expecting 1570
+246: OTP:
+247: Incorrect OTP, got 100, was expecting 2170
+247: OTP:
+248: Incorrect OTP, got 100, was expecting 2034
+248: OTP:
+249: Incorrect OTP, got 100, was expecting 3594
+249: OTP:
+250: Incorrect OTP, got 100, was expecting 1602
+250: OTP:
+251: Incorrect OTP, got 100, was expecting 1562
+251: OTP:
+252: Incorrect OTP, got 100, was expecting 1298
+252: OTP:
+253: Incorrect OTP, got 100, was expecting 1194
+253: OTP:
+254: Incorrect OTP, got 100, was expecting 2146
+254: OTP:
+255: Incorrect OTP, got 100, was expecting 3514
+255: OTP:
+256: Incorrect OTP, got 100, was expecting 1074
+256: OTP:
+257: Incorrect OTP, got 100, was expecting 1354
+257: OTP:
+258: Incorrect OTP, got 100, was expecting 3202
+258: OTP:
+259: Incorrect OTP, got 100, was expecting 3930
+259: OTP:
+260: Incorrect OTP, got 100, was expecting 1362
+260: OTP:
+261: Incorrect OTP, got 100, was expecting 4074
+261: OTP:
+262: Incorrect OTP, got 100, was expecting 674
+262: OTP:
+263: Incorrect OTP, got 100, was expecting 2810
+263: OTP:
+264: Incorrect OTP, got 100, was expecting 2162
+264: OTP:
+265: Incorrect OTP, got 100, was expecting 1162
+265: OTP:
+266: Incorrect OTP, got 100, was expecting 2754
+266: OTP:
+267: Incorrect OTP, got 100, was expecting 154
+267: OTP:
+268: Incorrect OTP, got 100, was expecting 3474
+268: OTP:
+269: Incorrect OTP, got 100, was expecting 810
+269: OTP:
+270: Incorrect OTP, got 100, was expecting 1250
+270: OTP:
+271: Incorrect OTP, got 100, was expecting 58
+271: OTP:
+272: Incorrect OTP, got 100, was expecting 1202
+272: OTP:
+273: Incorrect OTP, got 100, was expecting 3018
+273: OTP:
+274: Incorrect OTP, got 100, was expecting 258
+274: OTP:
+275: Incorrect OTP, got 100, was expecting 2522
+275: OTP:
+276: Incorrect OTP, got 100, was expecting 3538
+276: OTP:
+277: Incorrect OTP, got 100, was expecting 3690
+277: OTP:
+278: Incorrect OTP, got 100, was expecting 3874
+278: OTP:
+279: Incorrect OTP, got 100, was expecting 3450
+279: OTP:
+280: Incorrect OTP, got 100, was expecting 2290
+280: OTP:
+281: Incorrect OTP, got 100, was expecting 2826
+281: OTP:
+282: Incorrect OTP, got 100, was expecting 3906
+282: OTP:
+283: Incorrect OTP, got 100, was expecting 2842
+283: OTP:
+284: Incorrect OTP, got 100, was expecting 1554
+284: OTP:
+285: Incorrect OTP, got 100, was expecting 426
+285: OTP:
+286: Incorrect OTP, got 100, was expecting 354
+286: OTP:
+287: Incorrect OTP, got 100, was expecting 698
+287: OTP:
+288: Incorrect OTP, got 100, was expecting 1330
+288: OTP:
+289: Incorrect OTP, got 100, was expecting 586
+289: OTP:
+290: Incorrect OTP, got 100, was expecting 1410
+290: OTP:
+291: Incorrect OTP, got 100, was expecting 1114
+291: OTP:
+292: Incorrect OTP, got 100, was expecting 1618
+292: OTP:
+293: Incorrect OTP, got 100, was expecting 3306
+293: OTP:
+294: Incorrect OTP, got 100, was expecting 2978
+294: OTP:
+295: Incorrect OTP, got 100, was expecting 4090
+295: OTP:
+296: Incorrect OTP, got 100, was expecting 2418
+296: OTP:
+297: Incorrect OTP, got 100, was expecting 394
+297: OTP:
+298: Incorrect OTP, got 100, was expecting 962
+298: OTP:
+299: Incorrect OTP, got 100, was expecting 1434
+299: OTP:
+300: Incorrect OTP, got 100, was expecting 3730
+300: OTP:
+301: Incorrect OTP, got 100, was expecting 42
+301: OTP:
+302: Incorrect OTP, got 100, was expecting 3554
+302: OTP:
+303: Incorrect OTP, got 100, was expecting 1338
+303: OTP:
+304: Incorrect OTP, got 100, was expecting 1458
+304: OTP:
+305: Incorrect OTP, got 100, was expecting 2250
+305: OTP:
+306: Incorrect OTP, got 100, was expecting 2562
+306: OTP:
+307: Incorrect OTP, got 100, was expecting 3802
+307: OTP:
+308: Incorrect OTP, got 100, was expecting 3794
+308: OTP:
+309: Incorrect OTP, got 100, was expecting 2922
+309: OTP:
+310: Incorrect OTP, got 100, was expecting 2082
+310: OTP:
+311: Incorrect OTP, got 100, was expecting 634
+311: OTP:
+312: Incorrect OTP, got 100, was expecting 2546
+312: OTP:
+313: Incorrect OTP, got 100, was expecting 2058
+313: OTP:
+314: Incorrect OTP, got 100, was expecting 2114
+314: OTP:
+315: Incorrect OTP, got 100, was expecting 26
+315: OTP:
+316: Incorrect OTP, got 100, was expecting 1810
+316: OTP:
+317: Incorrect OTP, got 100, was expecting 3754
+317: OTP:
+318: Incorrect OTP, got 100, was expecting 2658
+318: OTP:
+319: Incorrect OTP, got 100, was expecting 1978
+319: OTP:
+320: Incorrect OTP, got 100, was expecting 1586
+320: OTP:
+321: Incorrect OTP, got 100, was expecting 3914
+321: OTP:
+322: Incorrect OTP, got 100, was expecting 3714
+322: OTP:
+323: Incorrect OTP, got 100, was expecting 2394
+323: OTP:
+324: Incorrect OTP, got 100, was expecting 1874
+324: OTP:
+325: Incorrect OTP, got 100, was expecting 2538
+325: OTP:
+326: Incorrect OTP, got 100, was expecting 1186
+326: OTP:
+327: Incorrect OTP, got 100, was expecting 1274
+327: OTP:
+328: Incorrect OTP, got 100, was expecting 2674
+328: OTP:
+329: Incorrect OTP, got 100, was expecting 3722
+329: OTP:
+330: Incorrect OTP, got 100, was expecting 3266
+330: OTP:
+331: Incorrect OTP, got 100, was expecting 2714
+331: OTP:
+332: Incorrect OTP, got 100, was expecting 3986
+332: OTP:
+333: Incorrect OTP, got 100, was expecting 3370
+333: OTP:
+334: Incorrect OTP, got 100, was expecting 1762
+334: OTP:
+335: Incorrect OTP, got 100, was expecting 2618
+335: OTP:
+336: Incorrect OTP, got 100, was expecting 1714
+336: OTP:
+337: Incorrect OTP, got 100, was expecting 1482
+337: OTP:
+338: Incorrect OTP, got 100, was expecting 770
+338: OTP:
+339: Incorrect OTP, got 100, was expecting 986
+339: OTP:
+340: Incorrect OTP, got 100, was expecting 4050
+340: OTP:
+341: Incorrect OTP, got 100, was expecting 2154
+341: OTP:
+342: Incorrect OTP, got 100, was expecting 290
+342: OTP:
+343: Incorrect OTP, got 100, was expecting 1914
+343: OTP:
+344: Incorrect OTP, got 100, was expecting 2802
+344: OTP:
+345: Incorrect OTP, got 100, was expecting 1290
+345: OTP:
+346: Incorrect OTP, got 100, was expecting 322
+346: OTP:
+347: Incorrect OTP, got 100, was expecting 1306
+347: OTP:
+348: Incorrect OTP, got 100, was expecting 2066
+348: OTP:
+349: Incorrect OTP, got 100, was expecting 2986
+349: OTP:
+350: Incorrect OTP, got 100, was expecting 866
+350: OTP:
+351: Incorrect OTP, got 100, was expecting 3258
+351: OTP:
+352: Incorrect OTP, got 100, was expecting 1842
+352: OTP:
+353: Incorrect OTP, got 100, was expecting 3146
+353: OTP:
+354: Incorrect OTP, got 100, was expecting 1922
+354: OTP:
+355: Incorrect OTP, got 100, was expecting 3674
+355: OTP:
+356: Incorrect OTP, got 100, was expecting 2130
+356: OTP:
+357: Incorrect OTP, got 100, was expecting 1770
+357: OTP:
+358: Incorrect OTP, got 100, was expecting 3490
+358: OTP:
+359: Incorrect OTP, got 100, was expecting 2554
+359: OTP:
+360: Incorrect OTP, got 100, was expecting 2930
+360: OTP:
+361: Incorrect OTP, got 100, was expecting 2954
+361: OTP:
+362: Incorrect OTP, got 100, was expecting 1474
+362: OTP:
+363: Incorrect OTP, got 100, was expecting 3994
+363: OTP:
+364: Incorrect OTP, got 100, was expecting 146
+364: OTP:
+365: Incorrect OTP, got 100, was expecting 2602
+365: OTP:
+366: Incorrect OTP, got 100, was expecting 4066
+366: OTP:
+367: Incorrect OTP, got 100, was expecting 3898
+367: OTP:
+368: Incorrect OTP, got 100, was expecting 1970
+368: OTP:
+369: Incorrect OTP, got 100, was expecting 714
+369: OTP:
+370: Incorrect OTP, got 100, was expecting 3074
+370: OTP:
+371: Incorrect OTP, got 100, was expecting 2266
+371: OTP:
+372: Incorrect OTP, got 100, was expecting 210
+372: OTP:
+373: Incorrect OTP, got 100, was expecting 1386
+373: OTP:
+374: Incorrect OTP, got 100, was expecting 2594
+374: OTP:
+375: Incorrect OTP, got 100, was expecting 3194
+375: OTP:
+376: Incorrect OTP, got 100, was expecting 3058
+376: OTP:
+377: Incorrect OTP, got 100, was expecting 522
+377: OTP:
+378: Incorrect OTP, got 100, was expecting 2626
+378: OTP:
+379: Incorrect OTP, got 100, was expecting 2586
+379: OTP:
+380: Incorrect OTP, got 100, was expecting 2322
+380: OTP:
+381: Incorrect OTP, got 100, was expecting 2218
+381: OTP:
+382: Incorrect OTP, got 100, was expecting 3170
+382: OTP:
+383: Incorrect OTP, got 100, was expecting 442
+383: OTP:
+384: Incorrect OTP, got 100, was expecting 2098
+384: OTP:
+385: Incorrect OTP, got 100, was expecting 2378
+385: OTP:
+386: Incorrect OTP, got 100, was expecting 130
+386: OTP:
+387: Incorrect OTP, got 100, was expecting 858
+387: OTP:
+388: Incorrect OTP, got 100, was expecting 2386
+388: OTP:
+389: Incorrect OTP, got 100, was expecting 1002
+389: OTP:
+390: Incorrect OTP, got 100, was expecting 1698
+390: OTP:
+391: Incorrect OTP, got 100, was expecting 3834
+391: OTP:
+392: Incorrect OTP, got 100, was expecting 3186
+392: OTP:
+393: Incorrect OTP, got 100, was expecting 2186
+393: OTP:
+394: Incorrect OTP, got 100, was expecting 3778
+394: OTP:
+395: Incorrect OTP, got 100, was expecting 1178
+395: OTP:
+396: Incorrect OTP, got 100, was expecting 402
+396: OTP:
+397: Incorrect OTP, got 100, was expecting 1834
+397: OTP:
+398: Incorrect OTP, got 100, was expecting 2274
+398: OTP:
+399: Incorrect OTP, got 100, was expecting 1082
+399: OTP:
+400: Incorrect OTP, got 100, was expecting 2226
+400: OTP:
+401: Incorrect OTP, got 100, was expecting 4042
+401: OTP:
+402: Incorrect OTP, got 100, was expecting 1282
+402: OTP:
+403: Incorrect OTP, got 100, was expecting 3546
+403: OTP:
+404: Incorrect OTP, got 100, was expecting 466
+404: OTP:
+405: Incorrect OTP, got 100, was expecting 618
+405: OTP:
+406: Incorrect OTP, got 100, was expecting 802
+406: OTP:
+407: Incorrect OTP, got 100, was expecting 378
+407: OTP:
+408: Incorrect OTP, got 100, was expecting 3314
+408: OTP:
+409: Incorrect OTP, got 100, was expecting 3850
+409: OTP:
+410: Incorrect OTP, got 100, was expecting 834
+410: OTP:
+411: Incorrect OTP, got 100, was expecting 3866
+411: OTP:
+412: Incorrect OTP, got 100, was expecting 2578
+412: OTP:
+413: Incorrect OTP, got 100, was expecting 1450
+413: OTP:
+414: Incorrect OTP, got 100, was expecting 1378
+414: OTP:
+415: Incorrect OTP, got 100, was expecting 1722
+415: OTP:
+416: Incorrect OTP, got 100, was expecting 2354
+416: OTP:
+417: Incorrect OTP, got 100, was expecting 1610
+417: OTP:
+418: Incorrect OTP, got 100, was expecting 2434
+418: OTP:
+419: Incorrect OTP, got 100, was expecting 2138
+419: OTP:
+420: Incorrect OTP, got 100, was expecting 2642
+420: OTP:
+421: Incorrect OTP, got 100, was expecting 234
+421: OTP:
+422: Incorrect OTP, got 100, was expecting 4002
+422: OTP:
+423: Incorrect OTP, got 100, was expecting 1018
+423: OTP:
+424: Incorrect OTP, got 100, was expecting 3442
+424: OTP:
+425: Incorrect OTP, got 100, was expecting 1418
+425: OTP:
+426: Incorrect OTP, got 100, was expecting 1986
+426: OTP:
+427: Incorrect OTP, got 100, was expecting 2458
+427: OTP:
+428: Incorrect OTP, got 100, was expecting 658
+428: OTP:
+429: Incorrect OTP, got 100, was expecting 1066
+429: OTP:
+430: Incorrect OTP, got 100, was expecting 482
+430: OTP:
+431: Incorrect OTP, got 100, was expecting 2362
+431: OTP:
+432: Incorrect OTP, got 100, was expecting 2482
+432: OTP:
+433: Incorrect OTP, got 100, was expecting 3274
+433: OTP:
+434: Incorrect OTP, got 100, was expecting 3586
+434: OTP:
+435: Incorrect OTP, got 100, was expecting 730
+435: OTP:
+436: Incorrect OTP, got 100, was expecting 722
+436: OTP:
+437: Incorrect OTP, got 100, was expecting 3946
+437: OTP:
+438: Incorrect OTP, got 100, was expecting 3106
+438: OTP:
+439: Incorrect OTP, got 100, was expecting 1658
+439: OTP:
+440: Incorrect OTP, got 100, was expecting 3570
+440: OTP:
+441: Incorrect OTP, got 100, was expecting 3082
+441: OTP:
+442: Incorrect OTP, got 100, was expecting 3138
+442: OTP:
+443: Incorrect OTP, got 100, was expecting 1050
+443: OTP:
+444: Incorrect OTP, got 100, was expecting 2834
+444: OTP:
+445: Incorrect OTP, got 100, was expecting 682
+445: OTP:
+446: Incorrect OTP, got 100, was expecting 3682
+446: OTP:
+447: Incorrect OTP, got 100, was expecting 3002
+447: OTP:
+448: Incorrect OTP, got 100, was expecting 2610
+448: OTP:
+449: Incorrect OTP, got 100, was expecting 842
+449: OTP:
+450: Incorrect OTP, got 100, was expecting 642
+450: OTP:
+451: Incorrect OTP, got 100, was expecting 3418
+451: OTP:
+452: Incorrect OTP, got 100, was expecting 2898
+452: OTP:
+453: Incorrect OTP, got 100, was expecting 3562
+453: OTP:
+454: Incorrect OTP, got 100, was expecting 2210
+454: OTP:
+455: Incorrect OTP, got 100, was expecting 2298
+455: OTP:
+456: Incorrect OTP, got 100, was expecting 3698
+456: OTP:
+457: Incorrect OTP, got 100, was expecting 650
+457: OTP:
+458: Incorrect OTP, got 100, was expecting 194
+458: OTP:
+459: Incorrect OTP, got 100, was expecting 3738
+459: OTP:
+460: Incorrect OTP, got 100, was expecting 914
+460: OTP:
+461: Incorrect OTP, got 100, was expecting 298
+461: OTP:
+462: Incorrect OTP, got 100, was expecting 2786
+462: OTP:
+463: Incorrect OTP, got 100, was expecting 3642
+463: OTP:
+464: Incorrect OTP, got 100, was expecting 2738
+464: OTP:
+465: Incorrect OTP, got 100, was expecting 2506
+465: OTP:
+466: Incorrect OTP, got 100, was expecting 1794
+466: OTP:
+467: Incorrect OTP, got 100, was expecting 2010
+467: OTP:
+468: Incorrect OTP, got 100, was expecting 978
+468: OTP:
+469: Incorrect OTP, got 100, was expecting 3178
+469: OTP:
+470: Incorrect OTP, got 100, was expecting 1314
+470: OTP:
+471: Incorrect OTP, got 100, was expecting 2938
+471: OTP:
+472: Incorrect OTP, got 100, was expecting 3826
+472: OTP:
+473: Incorrect OTP, got 100, was expecting 2314
+473: OTP:
+474: Incorrect OTP, got 100, was expecting 1346
+474: OTP:
+475: Incorrect OTP, got 100, was expecting 2330
+475: OTP:
+476: Incorrect OTP, got 100, was expecting 3090
+476: OTP:
+477: Incorrect OTP, got 100, was expecting 4010
+477: OTP:
+478: Incorrect OTP, got 100, was expecting 1890
+478: OTP:
+479: Incorrect OTP, got 100, was expecting 186
+479: OTP:
+480: Incorrect OTP, got 100, was expecting 2866
+480: OTP:
+481: Incorrect OTP, got 100, was expecting 74
+481: OTP:
+482: Incorrect OTP, got 100, was expecting 2946
+482: OTP:
+483: Incorrect OTP, got 100, was expecting 602
+483: OTP:
+484: Incorrect OTP, got 100, was expecting 3154
+484: OTP:
+485: Incorrect OTP, got 100, was expecting 2794
+485: OTP:
+486: Incorrect OTP, got 100, was expecting 418
+486: OTP:
+487: Incorrect OTP, got 100, was expecting 3578
+487: OTP:
+488: Incorrect OTP, got 100, was expecting 3954
+488: OTP:
+489: Incorrect OTP, got 100, was expecting 3978
+489: OTP:
+490: Incorrect OTP, got 100, was expecting 2498
+490: OTP:
+491: Incorrect OTP, got 100, was expecting 922
+491: OTP:
+492: Incorrect OTP, got 100, was expecting 1170
+492: OTP:
+493: Incorrect OTP, got 100, was expecting 3626
+493: OTP:
+494: Incorrect OTP, got 100, was expecting 994
+494: OTP:
+495: Incorrect OTP, got 100, was expecting 826
+495: OTP:
+496: Incorrect OTP, got 100, was expecting 2994
+496: OTP:
+497: Incorrect OTP, got 100, was expecting 1738
+497: OTP:
+498: Incorrect OTP, got 100, was expecting 2
+498: OTP:
+499: Incorrect OTP, got 100, was expecting 3290
+499: OTP:
+500: Incorrect OTP, got 100, was expecting 1234
+500: OTP:
+501: Incorrect OTP, got 100, was expecting 2410
+501: OTP:
+502: Incorrect OTP, got 100, was expecting 3618
+502: OTP:
+503: Incorrect OTP, got 100, was expecting 122
+503: OTP:
+504: Incorrect OTP, got 100, was expecting 4082
+504: OTP:
+505: Incorrect OTP, got 100, was expecting 1546
+505: OTP:
+506: Incorrect OTP, got 100, was expecting 3650
+506: OTP:
+507: Incorrect OTP, got 100, was expecting 3610
+507: OTP:
+508: Incorrect OTP, got 100, was expecting 3346
+508: OTP:
+509: Incorrect OTP, got 100, was expecting 3242
+509: OTP:
+510: Incorrect OTP, got 100, was expecting 98
+510: OTP:
+511: Incorrect OTP, got 100, was expecting 1466
+511: OTP:
+512: Incorrect OTP, got 100, was expecting 3122
+512: OTP:
+513: Incorrect OTP, got 100, was expecting 3402
+513: OTP:
+514: Incorrect OTP, got 100, was expecting 1154
+514: OTP:
+515: Incorrect OTP, got 100, was expecting 1882
+515: OTP:
+516: Incorrect OTP, got 100, was expecting 3410
+516: OTP:
+> CONFIRMED period=512 (index 4 == index 516)
+> Predicted next OTP (sequence[5]): 2026
+------ Final response ------
+CONGRATULATIONS! You have successfully connected to the C&C
+Here is the final secret: iceroadjellykitchen
+TODO: Replace this with actual connection to C&C
+Signed-By: Dan
+
+------ Recovered generator parameters ------
+LCG recovered: a=109, c=3072, m=4096  (x_(n+1) = (a*x_n + c) mod m)
