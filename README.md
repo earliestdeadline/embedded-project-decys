@@ -276,13 +276,13 @@ Beyond the two passwords, the same strings pass surfaced the other assets listed
 
 **Questions:**
 
-  **1. What is the second maintenance password?**
+**1. What is the second maintenance password?**
 
-  **Answer:** `alancywupdjmydfadoaqvshshkgucnfwvvoqhjbxrdgndhfmhryjzn`, password for the "Admin Alan" account.
+**Answer:** `alancywupdjmydfadoaqvshshkgucnfwvvoqhjbxrdgndhfmhryjzn`, password for the "Admin Alan" account.
 
-  **2.  What byte offset does it sit relative to the developer password, and how long are the base64 blobs?**
+**2.  What byte offset does it sit relative to the developer password, and how long are the base64 blobs?**
 
-  **Answer:** +29bytes. In `memory_0.bin`, `danprzjzumfgn` starts at offset 27977 and Alan’s password starts at offset 28006. The two base64 blobs found in the same strings pass are 1588 characters long (the RSA private key) and 344 characters long (the "signature").
+**Answer:** +29bytes. In `memory_0.bin`, `danprzjzumfgn` starts at offset 27977 and Alan’s password starts at offset 28006. The two base64 blobs found in the same strings pass are 1588 characters long (the RSA private key) and 344 characters long (the "signature").
 
 ## Part II
 
@@ -554,17 +554,17 @@ Both commands return exactly one value across all 100,046 lines, confirming ever
 
 **Questions:**
 
-  **1. What is the MD5 hash recovered from your decrypted signature?**
+**1. What is the MD5 hash recovered from your decrypted signature?**
 
-  **Answer: b3e4c33d446bef6730883158f338e512, extracted from the "hash" field of the JSON plaintext produced by decrypting signature.bin with the RSA private key.**
+**Answer:** b3e4c33d446bef6730883158f338e512, extracted from the "hash" field of the JSON plaintext produced by decrypting signature.bin with the RSA private key.
 
-  **2. What is the recovered c&c password?**
+**2. What is the recovered c&c password?**
 
-  **Answer: cncshneqqfaesmkhngtuakyiynloylukfsesdcpfsiuctxnxmykil, found via direct lookup of the recovered MD5 against rainbow_table.txt.**
+**Answer:** cncshneqqfaesmkhngtuakyiynloylukfsesdcpfsiuctxnxmykil, found via direct lookup of the recovered MD5 against rainbow_table.txt.
 
-  **3. Why is a short rainbow table enough here?**
+**3. Why is a short rainbow table enough here?**
 
-  **Answer: The table has one entry per password the generator could produce, not per possible MD5 hash, making this a direct lookup, not a brute-force inversion. Every password in the table follows the same constrained format (cnc prefix, 53 characters, lowercase letters only), so the full space of possible passwords is small enough to enumerate completely, even though only one entry is correct for a given board. The table’s effectiveness comes from this constrained search space, not from any weakness in MD5 itself.**
+**Answer:** The table has one entry per password the generator could produce, not per possible MD5 hash, making this a direct lookup, not a brute-force inversion. Every password in the table follows the same constrained format (cnc prefix, 53 characters, lowercase letters only), so the full space of possible passwords is small enough to enumerate completely, even though only one entry is correct for a given board. The table’s effectiveness comes from this constrained search space, not from any weakness in MD5 itself.
 
 ### Target 6: Crack the OTP generator
 
@@ -646,17 +646,17 @@ Using the recovered recurrence, the next expected OTP after the confirmed repeat
 
 **Questions:**
 
-  **1. How many attempts until the generator repeated?**
+**1. How many attempts until the generator repeated?**
 
-  **Answer:** In the successful case, 512. However it was noted that, depending on the boot seed, it can go up to 1024.
+**Answer:** In the successful case, 512. However it was noted that, depending on the boot seed, it can go up to 1024.
 
-  **2. What value repeated?**
+**2. What value repeated?**
 
-  **Answer:** The repeated values were always the first value in their respective sequence. So, in this case, the first value was **3122**, which repeated again at **attempt 512**.
+**Answer:** The repeated values were always the first value in their respective sequence. So, in this case, the first value was **3122**, which repeated again at **attempt 512**.
 
-  **3. What is the next OTP the generator will produce?**
+**3. What is the next OTP the generator will produce?**
 
-  **Answer:** Using the recovered parameters (`a=109, c=3072, m=4096`), the next OTP the generator produces is **2026**.
+**Answer:** Using the recovered parameters (`a=109, c=3072, m=4096`), the next OTP the generator produces is **2026**.
 
 ### Target 7: Final secret
 
