@@ -19,13 +19,19 @@ Describe how you used each tool (e.g., understanding a concept, debugging a comm
 
 - Claude was used to help draft and revise the prose explanations in README.md, turning raw command transcripts and notes into clearer, better-structured explanations of the steps taken. The underlying commands, outputs, and findings are our own work. Claude's role was limited to wording and structure.
 - Claude was used as a learning aid to understand what entropy measures, why it's a useful signal for distinguishing encoded/random key material from plain text or code in a firmware dump, and how to interpret the resulting bits-per-byte values.
+- Claude was used, in target 1 to help research approaches for reducing timing variability when sampling timing data, initially there was a big problem with the developed tool with the jitter, Claude helped find already established approaches that help reduce these variances and the one that worked the best was the deviation based approach adopted.
 
 ## Targets / sections involved
 
 Which targets or parts of the report the tools contributed to (e.g., Target 1, Target 6, report wording):
 
 - Report Wording
-- Target 4
+  - Target 4
+- Debugging and Troubleshooting
+  - Target 1
+- Preliminary Research
+  - Target 1
+  - Target 4
 
 ## Confirmation
 
