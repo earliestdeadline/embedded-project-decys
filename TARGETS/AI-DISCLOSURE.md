@@ -37,6 +37,7 @@ Which targets or parts of the report the tools contributed to (e.g., Target 1, T
   - Target 1
   - Target 4
   - Target 5
+  - Target 6
 
 ## Confirmation
 
