@@ -470,6 +470,102 @@ Even while still `base64-encoded`, the key text sits visibly above ordinary code
 
 ### Target 5: c&c password
 
+**Relevant Artifacts:**
+
+All artifacts for this target are located under ./TARGETS/target-5/.
+
+- Recovery script: target_crack.sh
+- Decrypted plaintext: decrypted.bin
+- Recovered hash: recovered_hash.txt
+- Full transcript: target_transcript.txt
+- Rainbow table used for lookup: rainbow_table.txt
+
+#### Explanation
+
+Target 4 established that key.der is a private key. As such, signature.bin is decrypted directly rather than verified as a signature. PKCS#1 v1.5, the default padding for OpenSSL’s (with no -pkeyopt flag being necessary) was tried first and succeeded, producing clean JSON
+
+```sh
+openssl pkeyutl -decrypt -inkey ../target-4/key.der -keyform DER -in ../target-4/signature.bin -out decrypted.bin
+cat decrypted.bin
+{"hash": "b3e4c33d446bef6730883158f338e512"}
+```
+
+As a cross-check, OAEP padding was also tried and correctly failed its padding verification, supporting PKCS#1v1.5 as the actual scheme rather than a coincidental decode
+
+```sh
+openssl pkeyutl -decrypt -inkey ../target-4/key.der -keyform DER -in ../target-4/signature.bin -pkeyopt rsa_padding_mode:oaep -out test.bin
+Public Key operation error
+40C4BA84557F0000:error:02000079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error:crypto/rsa/rsa_oaep.c:332:
+```
+
+The string was then looked up directly against rainbow_table.txt
+
+```sh
+grep -i "b3e4c33d446bef6730883158f338e512" rainbow_table.txt
+cncshneqqfaesmkhngtuakyiynloylukfsesdcpfsiuctxnxmykil b3e4c33d446bef6730883158f338e512
+```
+
+The shell script automates this, first decrypting with the private key, then extracting the hash from the JSON, and finally looking it up.
+
+```sh
+#!/usr/bin/env bash
+set -euo pipefail
+
+KEY="${1:-key.der}"
+SIGNATURE="${2:-signature.bin}"
+RAINBOW_TABLE="${3:-rainbow_table.txt}"
+TRANSCRIPT="target_transcript.txt"
+
+for f in "$KEY" "$SIGNATURE" "$RAINBOW_TABLE"; do
+    [[ -s "$f" ]] || { echo "ERROR: $f is missing or empty." >&2; exit 1; }
+done
+
+{
+    echo "-------------- Target 5: c&c password recovery --------------"
+    echo "Key: $KEY | Signature: $SIGNATURE | Rainbow table: $RAINBOW_TABLE"
+    echo
+
+    echo "-------------- Decrypting signature with private key --------------"
+    openssl pkeyutl -decrypt -inkey "$KEY" -keyform DER -in "$SIGNATURE" -out decrypted.bin
+    cat decrypted.bin
+    echo
+} | tee "$TRANSCRIPT"
+
+HASH_HEX=$(grep -o '"hash"[[:space:]]*:[[:space:]]*"[0-9a-fA-F]\{32\}"' decrypted.bin \
+    | grep -o '[0-9a-fA-F]\{32\}')
+echo "$HASH_HEX" > recovered_hash.txt
+echo "Recovered MD5: $HASH_HEX" | tee -a "$TRANSCRIPT"
+
+MATCH_LINE=$(awk -v h="$HASH_HEX" 'tolower($2)==tolower(h){print; exit}' "$RAINBOW_TABLE")
+echo "$MATCH_LINE" | tee -a "$TRANSCRIPT"
+echo "c&c password = $(awk '{print $1}' <<< "$MATCH_LINE")" | tee -a "$TRANSCRIPT"
+```
+
+Finally, to check whether the table’s small size reflects a genuinely constrained password space, the password column was checked for a consistent length and prefix across all entries
+
+```sh
+awk '{print length($1)}' rainbow_table.txt | sort -u
+53
+awk '{print substr($1,1,3)}' rainbow_table.txt | sort -u
+cnc
+```
+
+Both commands return exactly one value across all 100,046 lines, confirming every password in the table is 53 characters long and starts with cnc.
+
+**Questions:**
+
+  **1. What is the MD5 hash recovered from your decrypted signature?**
+
+  **Answer: b3e4c33d446bef6730883158f338e512, extracted from the "hash" field of the JSON plaintext produced by decrypting signature.bin with the RSA private key.**
+
+  **2. What is the recovered c&c password?**
+
+  **Answer: cncshneqqfaesmkhngtuakyiynloylukfsesdcpfsiuctxnxmykil, found via direct lookup of the recovered MD5 against rainbow_table.txt.**
+
+  **3. Why is a short rainbow table enough here?**
+
+  **Answer: The table has one entry per password the generator could produce, not per possible MD5 hash, making this a direct lookup, not a brute-force inversion. Every password in the table follows the same constrained format (cnc prefix, 53 characters, lowercase letters only), so the full space of possible passwords is small enough to enumerate completely, even though only one entry is correct for a given board. The table’s effectiveness comes from this constrained search space, not from any weakness in MD5 itself.**
+
 ### Target 6: Crack the OTP generator
 
 **Relevant Artifacts:**

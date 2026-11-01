@@ -20,6 +20,8 @@ Describe how you used each tool (e.g., understanding a concept, debugging a comm
 - Claude was used to help draft and revise the prose explanations in README.md, turning raw command transcripts and notes into clearer, better-structured explanations of the steps taken. The underlying commands, outputs, and findings are our own work. Claude's role was limited to wording and structure.
 - Claude was used as a learning aid to understand what entropy measures, why it's a useful signal for distinguishing encoded/random key material from plain text or code in a firmware dump, and how to interpret the resulting bits-per-byte values.
 - Claude was used, in target 1 to help research approaches for reducing timing variability when sampling timing data, initially there was a big problem with the developed tool with the jitter, Claude helped find already established approaches that help reduce these variances and the one that worked the best was the deviation based approach adopted.
+- Claude was used, in target 5, as a learning aid to identify and understand the appropriate OpenSSL commands required to decrypt the binary and extract the hash. It was also used to consolidate the commands into a single script to automate the decryption process.
+- Claude was used, in target 6, as a learning aid to understand the Hull–Dobell theorem and how it applies to LCG period length, and to understand the method for recovering LCG parameters (a, c, m) from consecutive leaked outputs.
 
 ## Targets / sections involved
 
@@ -27,14 +29,15 @@ Which targets or parts of the report the tools contributed to (e.g., Target 1, T
 
 - Report Wording
   - Target 4
+  - Target 5
 - Debugging and Troubleshooting
   - Target 1
+  - Target 5
 - Preliminary Research
   - Target 1
   - Target 4
+  - Target 5
 
 ## Confirmation
 
-We confirm that the artifacts under `TARGETS/` were produced by our team, on our assigned Arduino
-board, and that this disclosure is accurate. We understand that undisclosed or misrepresented AI
-use is an academic-integrity violation.
+We confirm that the artifacts under `TARGETS/` were produced by our team, on our assigned Arduino board, and that this disclosure is accurate. We understand that undisclosed or misrepresented AI use is an academic-integrity violation.
