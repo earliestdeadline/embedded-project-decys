@@ -17,7 +17,7 @@ List each AI tool and its version (or "none"):
 
 Describe how you used each tool (e.g., understanding a concept, debugging a command, drafting text):
 
-- Claude was used to help draft and revise the prose explanations in README.md, turning raw command transcripts and notes into clearer, better-structured explanations of the steps taken. The underlying commands, outputs, and findings are our own work. Claude's role was limited to wording, structure, and clarity of the explanatory text.
+- Claude was used to help draft and revise the prose explanations in README.md, turning raw command transcripts and notes into clearer, better-structured explanations of the steps taken. The underlying commands, outputs, and findings are our own work. Claude's role was limited to wording and structure.
 - Claude was used as a learning aid to understand what entropy measures, why it's a useful signal for distinguishing encoded/random key material from plain text or code in a firmware dump, and how to interpret the resulting bits-per-byte values.
 
 ## Targets / sections involved
