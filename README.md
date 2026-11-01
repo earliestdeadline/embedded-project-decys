@@ -1,5 +1,7 @@
 # Embedded Lab
 
+The data was obtained using Arduino with ID 4.
+
 ## Part I
 
 ### Target 1: Developer password
